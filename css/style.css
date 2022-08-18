@@ -1,0 +1,72 @@
+*{
+    font-family: Arial;
+}
+.btn{
+    transition: box-shadow 500ms ease;
+}
+.btn:hover{
+    box-shadow: 2px 5px 3px 0px #888;
+}
+.container{
+    padding: 20px;
+    border-bottom: 1px solid #999;
+}
+header h3{
+    color: #aaaaaa;
+    font-size: 29.25px;
+}
+input{
+    height: 30px !important;
+    border-radius: 5px !important;
+}
+input:focus{
+    box-shadow: none !important;
+    border: 2px solid #000 !important;
+}
+.btn-primary{
+transition: background-color 500ms ease;
+}
+.btn-primary:hover{
+    background-color: #0a3f77;
+}
+.btn-danger{
+transition: background-color 500ms ease;
+}
+.btn-danger:hover{
+    background-color: rgb(81, 13, 14);
+}
+.bookmark{
+    background-color: #eee;
+}
+.bookmark h2{
+    font-size: 1.5rem;
+}
+.bookmark p{
+    display: none;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #510d0e;
+    background-color: rgb(255, 178, 178);
+    color: #6d0000;
+    font-size: 18px;
+    font-weight: 700;
+}
+footer .container{
+    border-bottom: none;
+}
+footer p{
+    font-size: 14px;
+    color: #aaa;
+}
+.webMark h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+.row{
+    background-image: linear-gradient(#eee , #fff) ;
+    padding: 40px !important;
+    margin:  0 ;
+}
+
